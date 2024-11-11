@@ -1,0 +1,259 @@
+/* Reset and Global Styles */
+
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #f4a261;
+  }
+  
+  /* Header Styles */
+  header, main {
+    padding: 20px;
+  }
+  
+  header {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  h1, h2, h3 {
+    color: #2a9d8f;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Us Page Specific Styles */
+  .contact-section {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .contact-section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .contact-form button:hover {
+    background-color: #21867a;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 600px) {
+    .contact-section p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    nav a {
+      margin: 0 20px;
+    }
+  }
+  
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #f4a261;
+  }
+  
+  /* Header Styles */
+  header, main {
+    padding: 20px;
+  }
+  
+  header {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  h1, h2, h3 {
+    color: #2a9d8f;
+    margin-bottom: 10px;
+  }
+  
+  /* About Us Page Specific Styles */
+  .about-section {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 4px solid #2a9d8f;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 600px) {
+    .about-section p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    nav a {
+      margin: 0 20px;
+    }
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  header {
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  #recommendations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .recommendation img {
+    width: 45%;
+    margin: 10px 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
